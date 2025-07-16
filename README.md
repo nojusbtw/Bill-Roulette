@@ -1,8 +1,35 @@
-# React + Vite
+🧾 Who Pays the Bill? – React App
+A fun and simple web app that randomly selects someone from a list to "pay the bill." Great for deciding who's the unlucky one in a group!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💡 Features
+Add multiple players to a list
 
-Currently, two official plugins are available:
+Randomly choose one as the "looser" (who pays the bill)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Refresh the chosen player or start over anytime
+
+🛠️ Built With
+React (useState)
+
+Tailwind CSS for styling
+
+📸 Preview
+![Image preview](image.png)
+
+
+📁 File Structure
+/src
+  └── ToDolist.jsx      # Main component
+  └── App.js            # Import and render ToDolist
+  └── index.js          # React entry point
+
+📌 Usage
+Enter names of players one by one
+
+Click Add Player
+
+When ready, click Next to pick a random player
+
+Click get new looser to shuffle again
+
+Click Start Over to reset the game
